@@ -1,0 +1,73 @@
+### Voici les commandes que tu as utilisées, expliquées en français et en arabe :
+
+### 1. **Ajouter un dépôt distant / إضافة مستودع بعيد**
+   Pour ajouter un dépôt GitHub à ton projet local :
+   لإضافة مستودع GitHub إلى مشروعك المحلي:
+   
+   git remote add origin https://github.com/USERNAME/REPOSITORY.git
+   
+
+### 2. **Récupérer les branches distantes / جلب الفروع البعيدة**
+   Pour récupérer les branches distantes du dépôt :
+   لجلب الفروع البعيدة من المستودع البعيد:
+   
+   git fetch
+   
+
+### 3. **Lister les branches distantes / عرض الفروع البعيدة**
+   Pour voir les branches disponibles sur le dépôt distant :
+   لعرض الفروع المتاحة على المستودع البعيد:
+   
+   git branch -r
+   
+
+### 4. **Changer de branche locale / التبديل إلى فرع محلي**
+   Pour basculer vers une branche locale, comme `main` :
+   لتبديل العمل إلى فرع معين مثل `main`:
+   
+   git checkout main
+   
+
+### 5. **Ajouter des fichiers au commit / إضافة الملفات إلى مرحلة الـ commit**
+   Pour ajouter les fichiers modifiés au suivi :
+   لإضافة الملفات المعدلة للتتبع:
+   
+   git add .
+   
+
+### 6. **Créer un commit avec un message / إنشاء commit مع رسالة**
+   Pour sauvegarder les modifications avec un message :
+   لتثبيت التعديلات مع كتابة رسالة التعديل:
+   
+   git commit -m "Message de modification / رسالة التعديل"
+   
+
+### 7. **Envoyer les modifications vers le dépôt distant / دفع التعديلات إلى المستودع البعيد**
+   Pour envoyer les modifications vers le dépôt distant :
+   لدفع التعديلات إلى المستودع البعيد:
+   
+   git push -u origin master
+   
+
+### 8. **Supprimer une branche locale / حذف فرع محلي**
+   Pour supprimer la branche `master` en local :
+   لحذف فرع `master` من جهازك المحلي:
+   
+   git branch -d master
+   
+
+### 9. **Supprimer une branche distante / حذف فرع عن بُعد**
+   Pour supprimer la branche `master` du dépôt GitHub :
+   لحذف فرع `master` من مستودع GitHub:
+   
+   git push origin --delete master
+   
+
+### 10. **Voir l’historique des commits / عرض سجل التعديلات (commits)**
+   Pour afficher l’historique des commits sur la branche actuelle :
+   لعرض سجل التعديلات على الفرع الحالي:
+   
+   git log
+   
+
+Ces commandes t’ont permis de gérer ton projet avec Git et GitHub, en français et en arabe pour t'aider à bien comprendre.
